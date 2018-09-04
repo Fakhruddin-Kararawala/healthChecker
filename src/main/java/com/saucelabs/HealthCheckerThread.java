@@ -83,4 +83,8 @@ class HealthCheckerThread implements Runnable {
             logger.log(Level.ERROR, "Magnificent is not responding");
         }
     }
+
+public String getServiceUrl(){
+	return serviceUrl;
+}
 }
